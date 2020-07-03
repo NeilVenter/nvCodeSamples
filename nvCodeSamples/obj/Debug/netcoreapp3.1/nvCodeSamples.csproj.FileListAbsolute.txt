@@ -1,0 +1,14 @@
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.exe
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.deps.json
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.runtimeconfig.json
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.runtimeconfig.dev.json
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.dll
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nvCodeSamples.pdb
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.AssemblyInfoInputs.cache
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.AssemblyInfo.cs
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.dll
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.pdb
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.genruntimeconfig.cache
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.csproj.CoreCompileInputs.cache
+C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.csproj.CopyComplete
