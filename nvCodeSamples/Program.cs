@@ -40,6 +40,14 @@ namespace nvCodeSamples
             string message = isRotation ? "TRUE: The two arrays are rotations of one another" : "FALSE: These two arrays are NOT rotations of one anoter"; 
             Console.WriteLine($"{message}");
 
+            //test string
+            StringSamples stringSamples = new StringSamples();
+            string testStr = "bbaccdds";
+
+            char? nonRepeater = stringSamples.NonRepeating(testStr);
+
+            Console.WriteLine($"The value that did not repeat is: {nonRepeater}");
+
             Console.ReadLine();
         }
 

@@ -12,4 +12,3 @@ C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\
 C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.csproj.CoreCompileInputs.cache
 C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.csproj.CopyComplete
-C:\Users\neilp\source\repos\nvCodeSamples\nvCodeSamples\obj\Debug\netcoreapp3.1\nvCodeSamples.csprojAssemblyReference.cache
