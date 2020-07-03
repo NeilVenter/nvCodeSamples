@@ -48,6 +48,13 @@ namespace nvCodeSamples
 
             Console.WriteLine($"The value that did not repeat is: {nonRepeater}");
 
+            //One Edit away
+            string testStr1 = "a";
+            string testStr2 = "a";
+
+            bool isOneEdit = stringSamples.IsOneEditAway(testStr1, testStr2);
+            Console.WriteLine($"The two strings are one edit away: {isOneEdit}");
+
             Console.ReadLine();
         }
 
