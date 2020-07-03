@@ -33,6 +33,13 @@ namespace nvCodeSamples
                 Console.WriteLine($"{value} occurred in both the given arrays when using loops");
             }
 
+            int[] array3 = { 1, 2, 3, 4, 5, 6, 7 };
+            int[] array4 = { 4, 5, 6, 7, 1, 2, 3 };
+
+            bool isRotation = arraySamples.IsRotation(array3, array4);
+            string message = isRotation ? "TRUE: The two arrays are rotations of one another" : "FALSE: These two arrays are NOT rotations of one anoter"; 
+            Console.WriteLine($"{message}");
+
             Console.ReadLine();
         }
 

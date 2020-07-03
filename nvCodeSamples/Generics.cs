@@ -6,6 +6,6 @@ namespace nvCodeSamples
 {
     class Generics
     {
-        System.Collections.Generic.
+        //System.Collections.Generic.
     }
 }
