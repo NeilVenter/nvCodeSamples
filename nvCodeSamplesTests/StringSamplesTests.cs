@@ -29,8 +29,9 @@ namespace nvCodeSamples.Tests
             string testStr1 = "bbaccdds";
             string testStr2 = "bbafcdds";
 
-            bool result = false;
-            
+            bool result = stringSamples.IsOneEditAway(testStr1, testStr2);
+
+
 
             Assert.AreEqual(true, result, "this should be one edit away");
         }

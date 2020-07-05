@@ -52,22 +52,22 @@ namespace nvCodeSamples
             List<int> commenValues = new List<int>();
             int P1 = 0;
             int P2 = 0;
-            
-            while(P1 < Array1.Length & P2 < Array2.Length)
+
+            while (P1 < Array1.Length & P2 < Array2.Length)
             {
-                if(Array1[P1] == Array2[P2])
+                if (Array1[P1] == Array2[P2])
                 {
                     commenValues.Add(Array1[P1]);
-                    P1 ++;
-                    P2 ++;
+                    P1++;
+                    P2++;
                 }
-                else if(Array1[P1] > Array2[P2])
+                else if (Array1[P1] > Array2[P2])
                 {
-                    P2 ++;
+                    P2++;
                 }
                 else if (Array1[P1] < Array2[P2])
                 {
-                    P1 ++;
+                    P1++;
                 }
             }
 
@@ -81,10 +81,10 @@ namespace nvCodeSamples
             }
 
             int array2Start = 0;
-            
-            for (int i = 0; i < array2.Length -1; i++)
+
+            for (int i = 0; i < array2.Length - 1; i++)
             {
-                if(array1[0] == array2[i])
+                if (array1[0] == array2[i])
                 {
                     array2Start = i;
                     break;
@@ -104,5 +104,6 @@ namespace nvCodeSamples
 
             return true;
         }
+        
     }
 }
