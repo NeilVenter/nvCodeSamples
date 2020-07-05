@@ -21,5 +21,19 @@ namespace nvCodeSamples.Tests
             Assert.AreEqual('a', result, "Must return a");
 
         }
+
+        [TestMethod()]
+        public void IsOneEditAwayTest()
+        {
+            StringSamples stringSamples = new StringSamples();
+            string testStr1 = "bbaccdds";
+            string testStr2 = "bbafcdds";
+
+            bool result = stringSamples.IsOneEditAway(testStr1, testStr2);
+
+
+
+            Assert.AreEqual(true, result, "this should be one edit away");
+        }
     }
 }

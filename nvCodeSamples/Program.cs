@@ -37,7 +37,7 @@ namespace nvCodeSamples
             int[] array4 = { 4, 5, 6, 7, 1, 2, 3 };
 
             bool isRotation = arraySamples.IsRotation(array3, array4);
-            string message = isRotation ? "TRUE: The two arrays are rotations of one another" : "FALSE: These two arrays are NOT rotations of one anoter"; 
+            string message = isRotation ? "TRUE: The two arrays are rotations of one another" : "FALSE: These two arrays are NOT rotations of one anoter";
             Console.WriteLine($"{message}");
 
             //test string
@@ -48,9 +48,45 @@ namespace nvCodeSamples
 
             Console.WriteLine($"The value that did not repeat is: {nonRepeater}");
 
+            //One Edit away
+            string testStr1 = "a";
+            string testStr2 = "a";
+
+            bool isOneEdit = stringSamples.IsOneEditAway(testStr1, testStr2);
+            Console.WriteLine($"The two strings are one edit away: {isOneEdit}");
+
+
+            //test multi
+            MultiDimArraySamples multiDimArraySamples = new MultiDimArraySamples();
+            //minesweeper count bombs
+            int[][] bombs = new int[][] {
+                new int[] {0,0},
+                new int[] {0,1}
+            };
+                
+
+            int[,] minesweeper = multiDimArraySamples.Minesweeper(bombs, 3, 4);
+            Console.WriteLine($"mine field returmed");
+
+            int[,] startMineField = {
+             {-1,1,0,0},
+             {1,1,0,0},
+             {0,0,1,1},
+             {0,0,1,-1}
+            };
+
+
+            multiDimArraySamples.expandMinesweeper(startMineField, 4, 4, 1, 2);
+            Console.WriteLine($"mine field returmed");
+
+            //ArrayDemo();
+
             Console.ReadLine();
         }
 
-
+        private static void ArrayDemo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
